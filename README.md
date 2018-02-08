@@ -1,3 +1,4 @@
+
 # SPEEDUINO-PSOC5
  
 This is a special version of the great speeduino ecu code
@@ -9,14 +10,20 @@ This version don't have the same features so please look at the full speeduino b
 https://speeduino.com/wiki/index.php/Speeduino
 https://github.com/noisymime/speeduino
 
-I have made a special ARDUINO speeduino version for the Cypress CY8CKIT-059 based loosly on the great work from sparkfun
-On top of this I have made a "plugin" to PlatformIO enabling you to use ATOM/PlatformIO to code and program the board
+I have made a special ARDUINO speeduino version for the Cypress CY8CKIT-059 board based loosly on the great work from sparkfun
+On top of this I have made a "plugin" to PlatformIO enabling you to use ATOM/PlatformIO for code development and programming of the board
 
 Bootloader:
+https://github.com/J-f-Jensen/PSOC5/blob/master/UART_Bootloader.hex
 
+After the bootloader is loaded and tested you can remove the programming board. Just use the upload function in ATOM/PlatformIO when
+you want to upload new code
 
 PSOC5 "plugin" for ATOM/PlatformIO:
+https://github.com/J-f-Jensen/PSOC5/tree/master/DOTplatformio
 
+To install the PSOC5 support in ATOM/PlatformIO just copy the folders from DOTplatformio to the .platformio folder in the root folder
+of your user, example: c:\users\bruger\.platformio
 
 Source code - if you want to change it PSOC Creator 4.0 is the one to use. There is a update.bat file that you can use after you have 
 corrected the paths in it.
@@ -27,10 +34,8 @@ https://github.com/J-f-Jensen/PSOC5
 Cypress CY8CKIT-059 board:
 http://www.cypress.com/documentation/development-kitsboards/cy8ckit-059-psoc-5lp-prototyping-kit-onboard-programmer-and?source=search&keywords=cy8ckit-059
 
-After the bootloader is loaded and tested you can remove the programming board. Just use the upload function in ATOM/PlatformIO when
-you want to upload new code
 
-To install the PSOC5 support in ATOM/PlatformIO just copy the folders from DOTplatformio to the .platformio folder in the root folder
-of your user, example: c:\users\bruger\.platformio
+
+
 
 
