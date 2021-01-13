@@ -23,7 +23,7 @@ PSOC5 "plugin" for ATOM/PlatformIO:
 https://github.com/J-f-Jensen/PSOC5/tree/master/DOTplatformio
 
 To install the PSOC5 support in ATOM/PlatformIO just copy the folders from DOTplatformio to the .platformio folder in the root folder
-of your user, example: c:\users\bruger\.platformio
+of your user, example: c:\users\bruger\\.platformio
 
 Source code - if you want to change it PSOC Creator 4.0 is the one to use. There is a update.bat file that you can use after you have 
 corrected the paths in it.
